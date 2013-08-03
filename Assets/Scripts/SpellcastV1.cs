@@ -16,9 +16,17 @@ public class SpellcastV1 : MonoBehaviour {
 	
 	public float innerRadius = 1f;
 	public float outerRadius = 4f;
+	
+	bool showSpellInterface = false;
 
 	// Use this for initialization
-	void Start () {
+	public void CreateSpellInterface () {
+		if (showSpellInterface == true) {
+			return;
+		}
+		
+		showSpellInterface = true;
+		
 //		startTransform.renderer.enabled = false;
 //		endTransform.renderer.enabled = false;
 //		visualIndicator.SetManager (this);
@@ -65,12 +73,40 @@ public class SpellcastV1 : MonoBehaviour {
 		}
 	}
 	
+	public void DestroySpellInterface () {
+		if (!showSpellInterface) {
+			return;
+		}
+		
+		showSpellInterface = false;
+		
+		for (int i = 0; i < elementCount; i++) {
+			Destroy (elements[i].transform.parent.gameObject);
+			Destroy (elements[i].gameObject);
+			Destroy (startTransforms[i].gameObject);
+			Destroy (endTransforms[i].gameObject);
+		}
+		
+		elements = new SpellElement[0];
+	}
+	
 	// Update is called once per frame
 	void Update () {
 //		visualIndicator.transform.position = Vector3.Lerp (startTransform.position, endTransform.position, visualIndicator.positionPercentage);
-		for (int i = 0; i < elementCount; i++) {
+		for (int i = 0; i < elements.Length; i++) {
 			elements[i].transform.localPosition = Vector3.Lerp (startTransforms[i].localPosition, endTransforms[i].localPosition, elements[i].positionPercentage);
 		}
+	}
+	
+	void OnGUI () {
+		if (GUILayout.Button ("Show Spell Interface")) {
+			CreateSpellInterface();
+		}
+		
+		if (GUILayout.Button ("Hide Spell Interface")) {
+			DestroySpellInterface();
+		}
+		
 	}
 	
 	void OnDrawGizmos () {
