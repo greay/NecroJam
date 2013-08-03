@@ -3,16 +3,18 @@ using System.Collections;
 
 public class ReflectorHandler : MonoBehaviour {
 	
-	
+	public AudioClip emitAudio;	
 	public float reflectLength = .5F;
 	public Animation emitAnimationRef;
+
 	
 	private bool hasReflected = false;
+	private AudioSource audioSourceRef;
 	
 	// Use this for initialization
 	void Start () 
 	{
-	
+		audioSourceRef = Camera.main.audio;
 	}
 	
 	// Update is called once per frame
@@ -21,9 +23,11 @@ public class ReflectorHandler : MonoBehaviour {
 	
 	}
 	
-	void OnCollisionEnter(Collision collision)
+	void OnTriggerEnter(Collider collider)
 	{
-		if (collision.gameObject.tag == "reflector" && !hasReflected)
+		if (collider.tag == "reflectorEmission"
+			&& collider.gameObject != emitAnimationRef.gameObject
+			&& !hasReflected)
 		{
 			EmitReflection();
 		}
@@ -31,7 +35,10 @@ public class ReflectorHandler : MonoBehaviour {
 	
 	void EmitReflection()
 	{
+		print ("HI!");
+		hasReflected=true;
 		emitAnimationRef.Play();
+		audioSourceRef.PlayOneShot(emitAudio, 1);
 	}
 	
 }
