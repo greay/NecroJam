@@ -226,7 +226,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: f0596ed13d17bfb439a7240d47a87aa5, type: 2}
+  - {fileID: 2100000, guid: 6b93f95b63396421ea9ade8b648a00fb, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -473,7 +473,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: f0596ed13d17bfb439a7240d47a87aa5, type: 2}
+  - {fileID: 2100000, guid: 6b93f95b63396421ea9ade8b648a00fb, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -539,9 +539,10 @@ Animation:
   m_GameObject: {fileID: 314109747}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  m_Animation: {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  - {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -575,7 +576,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a4b2bcc2e93ce3a4c90833d0301c3b10, type: 2}
+  - {fileID: 2100000, guid: bfc3d0508d15b494185633344282aa4f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -834,9 +835,10 @@ Animation:
   m_GameObject: {fileID: 409053512}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  m_Animation: {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  - {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -870,7 +872,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a4b2bcc2e93ce3a4c90833d0301c3b10, type: 2}
+  - {fileID: 2100000, guid: bfc3d0508d15b494185633344282aa4f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -884,6 +886,76 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2082810473}
   m_GameObject: {fileID: 409053512}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &428489434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 956e43c577f0b6c4696a4c9c7e4aa795, type: 2}
+  m_PrefabInternal: {fileID: 652148974}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 428489435}
+  - 33: {fileID: 428489437}
+  - 23: {fileID: 428489436}
+  - 114: {fileID: 428489438}
+  m_Layer: 0
+  m_Name: ReflectorSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 813524716, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &428489435
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 956e43c577f0b6c4696a4c9c7e4aa795, type: 2}
+  m_PrefabInternal: {fileID: 652148974}
+  m_GameObject: {fileID: 428489434}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.7935705, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 757829478}
+  m_Father: {fileID: 0}
+--- !u!23 &428489436
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 956e43c577f0b6c4696a4c9c7e4aa795,
+    type: 2}
+  m_PrefabInternal: {fileID: 652148974}
+  m_GameObject: {fileID: 428489434}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 6b93f95b63396421ea9ade8b648a00fb, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!33 &428489437
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 956e43c577f0b6c4696a4c9c7e4aa795,
+    type: 2}
+  m_PrefabInternal: {fileID: 652148974}
+  m_GameObject: {fileID: 428489434}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &428489438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 956e43c577f0b6c4696a4c9c7e4aa795,
+    type: 2}
+  m_PrefabInternal: {fileID: 652148974}
+  m_GameObject: {fileID: 428489434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf952a2c197d7fe489604c587b7cdb4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabToSpawn: {fileID: 100000, guid: 581bb5e4a905d49539653279c26d532e, type: 2}
 --- !u!1001 &435879303
 Prefab:
   m_ObjectHideFlags: 0
@@ -965,9 +1037,10 @@ Animation:
   m_GameObject: {fileID: 522697375}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  m_Animation: {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  - {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -988,7 +1061,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a4b2bcc2e93ce3a4c90833d0301c3b10, type: 2}
+  - {fileID: 2100000, guid: bfc3d0508d15b494185633344282aa4f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1097,7 +1170,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: f0596ed13d17bfb439a7240d47a87aa5, type: 2}
+  - {fileID: 2100000, guid: 6b93f95b63396421ea9ade8b648a00fb, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1176,9 +1249,10 @@ Animation:
   m_GameObject: {fileID: 558146616}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  m_Animation: {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  - {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -1199,7 +1273,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a4b2bcc2e93ce3a4c90833d0301c3b10, type: 2}
+  - {fileID: 2100000, guid: bfc3d0508d15b494185633344282aa4f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1294,9 +1368,10 @@ Animation:
   m_GameObject: {fileID: 628053657}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  m_Animation: {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  - {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -1317,7 +1392,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a4b2bcc2e93ce3a4c90833d0301c3b10, type: 2}
+  - {fileID: 2100000, guid: bfc3d0508d15b494185633344282aa4f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1410,6 +1485,46 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1999882257}
   m_GameObject: {fileID: 642936013}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &652148974
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 956e43c577f0b6c4696a4c9c7e4aa795, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 15.7935705
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 956e43c577f0b6c4696a4c9c7e4aa795, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 956e43c577f0b6c4696a4c9c7e4aa795, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 956e43c577f0b6c4696a4c9c7e4aa795, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 956e43c577f0b6c4696a4c9c7e4aa795, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 956e43c577f0b6c4696a4c9c7e4aa795, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 956e43c577f0b6c4696a4c9c7e4aa795, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 956e43c577f0b6c4696a4c9c7e4aa795, type: 2}
+  m_RootGameObject: {fileID: 428489434}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1001 &663025783
 Prefab:
   m_ObjectHideFlags: 0
@@ -1534,7 +1649,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: f0596ed13d17bfb439a7240d47a87aa5, type: 2}
+  - {fileID: 2100000, guid: 6b93f95b63396421ea9ade8b648a00fb, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1601,6 +1716,61 @@ Prefab:
   m_RootGameObject: {fileID: 524447861}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &757829477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 956e43c577f0b6c4696a4c9c7e4aa795, type: 2}
+  m_PrefabInternal: {fileID: 652148974}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 757829478}
+  - 33: {fileID: 757829481}
+  - 23: {fileID: 757829480}
+  m_Layer: 0
+  m_Name: AreaOfAffectHelper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &757829478
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 956e43c577f0b6c4696a4c9c7e4aa795, type: 2}
+  m_PrefabInternal: {fileID: 652148974}
+  m_GameObject: {fileID: 757829477}
+  m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.48109508, y: 3.48109603, z: 3.48109603}
+  m_Children: []
+  m_Father: {fileID: 428489435}
+--- !u!23 &757829480
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 956e43c577f0b6c4696a4c9c7e4aa795,
+    type: 2}
+  m_PrefabInternal: {fileID: 652148974}
+  m_GameObject: {fileID: 757829477}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 7e249414627e8bd4dac6bbfa6f157651, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!33 &757829481
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 956e43c577f0b6c4696a4c9c7e4aa795,
+    type: 2}
+  m_PrefabInternal: {fileID: 652148974}
+  m_GameObject: {fileID: 757829477}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &767015305
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,9 +2016,10 @@ Animation:
   m_GameObject: {fileID: 936527775}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  m_Animation: {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  - {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -1869,7 +2040,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a4b2bcc2e93ce3a4c90833d0301c3b10, type: 2}
+  - {fileID: 2100000, guid: bfc3d0508d15b494185633344282aa4f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1978,7 +2149,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: f0596ed13d17bfb439a7240d47a87aa5, type: 2}
+  - {fileID: 2100000, guid: 6b93f95b63396421ea9ade8b648a00fb, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -2198,11 +2369,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 104bb3e10dc7a402991367f4e837c11a, type: 2}
       propertyPath: randomForceAmount.y
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: 104bb3e10dc7a402991367f4e837c11a, type: 2}
       propertyPath: randomSpinAmount
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 104bb3e10dc7a402991367f4e837c11a, type: 2}
+      propertyPath: randomInertiaTensorAmount.x
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 104bb3e10dc7a402991367f4e837c11a, type: 2}
+      propertyPath: randomInertiaTensorAmount.y
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 104bb3e10dc7a402991367f4e837c11a, type: 2}
+      propertyPath: randomInertiaTensorAmount.z
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 104bb3e10dc7a402991367f4e837c11a, type: 2}
@@ -2250,9 +2433,10 @@ Animation:
   m_GameObject: {fileID: 1086733674}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  m_Animation: {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  - {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -2273,7 +2457,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a4b2bcc2e93ce3a4c90833d0301c3b10, type: 2}
+  - {fileID: 2100000, guid: bfc3d0508d15b494185633344282aa4f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -2382,7 +2566,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: f0596ed13d17bfb439a7240d47a87aa5, type: 2}
+  - {fileID: 2100000, guid: 6b93f95b63396421ea9ade8b648a00fb, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -2493,7 +2677,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: f0596ed13d17bfb439a7240d47a87aa5, type: 2}
+  - {fileID: 2100000, guid: 6b93f95b63396421ea9ade8b648a00fb, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -2589,9 +2773,10 @@ Animation:
   m_GameObject: {fileID: 1157669007}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  m_Animation: {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  - {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -2612,7 +2797,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a4b2bcc2e93ce3a4c90833d0301c3b10, type: 2}
+  - {fileID: 2100000, guid: bfc3d0508d15b494185633344282aa4f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -2667,9 +2852,10 @@ Animation:
   m_GameObject: {fileID: 1212552624}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  m_Animation: {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  - {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -2690,7 +2876,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a4b2bcc2e93ce3a4c90833d0301c3b10, type: 2}
+  - {fileID: 2100000, guid: bfc3d0508d15b494185633344282aa4f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -2796,9 +2982,10 @@ Animation:
   m_GameObject: {fileID: 1226333900}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  m_Animation: {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  - {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -2819,7 +3006,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a4b2bcc2e93ce3a4c90833d0301c3b10, type: 2}
+  - {fileID: 2100000, guid: bfc3d0508d15b494185633344282aa4f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -2996,7 +3183,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: f0596ed13d17bfb439a7240d47a87aa5, type: 2}
+  - {fileID: 2100000, guid: 6b93f95b63396421ea9ade8b648a00fb, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -3107,7 +3294,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: f0596ed13d17bfb439a7240d47a87aa5, type: 2}
+  - {fileID: 2100000, guid: 6b93f95b63396421ea9ade8b648a00fb, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -3173,9 +3360,10 @@ Animation:
   m_GameObject: {fileID: 1409804597}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  m_Animation: {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  - {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -3209,7 +3397,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a4b2bcc2e93ce3a4c90833d0301c3b10, type: 2}
+  - {fileID: 2100000, guid: bfc3d0508d15b494185633344282aa4f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -3269,7 +3457,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   randomScaleAmount: 5
-  randomForceAmount: {x: 2, y: 2}
+  randomForceAmount: {x: 2, y: 5}
+  randomInertiaTensorAmount: {x: 25, y: 25, z: 5}
   randomSpinAmount: 2
 --- !u!23 &1462569228
 Renderer:
@@ -3503,9 +3692,10 @@ Animation:
   m_GameObject: {fileID: 1733365176}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  m_Animation: {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  - {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -3526,7 +3716,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a4b2bcc2e93ce3a4c90833d0301c3b10, type: 2}
+  - {fileID: 2100000, guid: bfc3d0508d15b494185633344282aa4f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -3703,7 +3893,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: f0596ed13d17bfb439a7240d47a87aa5, type: 2}
+  - {fileID: 2100000, guid: 6b93f95b63396421ea9ade8b648a00fb, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -3894,7 +4084,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: f0596ed13d17bfb439a7240d47a87aa5, type: 2}
+  - {fileID: 2100000, guid: 6b93f95b63396421ea9ade8b648a00fb, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -3962,9 +4152,10 @@ Animation:
   m_GameObject: {fileID: 1943459510}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  m_Animation: {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  - {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -3985,7 +4176,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a4b2bcc2e93ce3a4c90833d0301c3b10, type: 2}
+  - {fileID: 2100000, guid: bfc3d0508d15b494185633344282aa4f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -4214,7 +4405,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: f0596ed13d17bfb439a7240d47a87aa5, type: 2}
+  - {fileID: 2100000, guid: 6b93f95b63396421ea9ade8b648a00fb, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
