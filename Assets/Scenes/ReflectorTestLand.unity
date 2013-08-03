@@ -86,7 +86,6 @@ GameObject:
   - 23: {fileID: 29010122}
   - 111: {fileID: 29010119}
   - 65: {fileID: 29010121}
-  - 54: {fileID: 29010120}
   m_Layer: 0
   m_Name: ReflectorEmit
   m_TagString: reflectorEmission
@@ -124,22 +123,6 @@ Animation:
   m_UserAABB:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
---- !u!54 &29010120
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5400000, guid: 41bb5da590fcb874aa69a8a2632f114d,
-    type: 2}
-  m_PrefabInternal: {fileID: 1548258614}
-  m_GameObject: {fileID: 29010117}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &29010121
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -227,7 +210,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!114 &282163557
 MonoBehaviour:
@@ -319,6 +302,10 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5400002, guid: 41bb5da590fcb874aa69a8a2632f114d, type: 2}
+      propertyPath: m_Constraints
+      value: 84
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41bb5da590fcb874aa69a8a2632f114d, type: 2}
   m_RootGameObject: {fileID: 1576680503}
@@ -358,6 +345,10 @@ Prefab:
     - target: {fileID: 400000, guid: 41bb5da590fcb874aa69a8a2632f114d, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5400002, guid: 41bb5da590fcb874aa69a8a2632f114d, type: 2}
+      propertyPath: m_Constraints
+      value: 84
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41bb5da590fcb874aa69a8a2632f114d, type: 2}
@@ -399,6 +390,10 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5400002, guid: 41bb5da590fcb874aa69a8a2632f114d, type: 2}
+      propertyPath: m_Constraints
+      value: 84
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41bb5da590fcb874aa69a8a2632f114d, type: 2}
   m_RootGameObject: {fileID: 1683215510}
@@ -416,7 +411,6 @@ GameObject:
   - 23: {fileID: 632719768}
   - 111: {fileID: 632719767}
   - 65: {fileID: 632719766}
-  - 54: {fileID: 632719765}
   m_Layer: 0
   m_Name: ReflectorEmit
   m_TagString: reflectorEmission
@@ -424,22 +418,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &632719765
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5400000, guid: 41bb5da590fcb874aa69a8a2632f114d,
-    type: 2}
-  m_PrefabInternal: {fileID: 1170417796}
-  m_GameObject: {fileID: 632719764}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &632719766
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -612,7 +590,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!1 &681806623
 GameObject:
@@ -709,7 +687,6 @@ GameObject:
   - 23: {fileID: 874499895}
   - 111: {fileID: 874499891}
   - 65: {fileID: 874499894}
-  - 54: {fileID: 874499893}
   m_Layer: 0
   m_Name: ReflectorEmit
   m_TagString: reflectorEmission
@@ -747,22 +724,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1683215516}
---- !u!54 &874499893
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5400000, guid: 41bb5da590fcb874aa69a8a2632f114d,
-    type: 2}
-  m_PrefabInternal: {fileID: 589308387}
-  m_GameObject: {fileID: 874499890}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &874499894
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1087,6 +1048,10 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5400002, guid: 41bb5da590fcb874aa69a8a2632f114d, type: 2}
+      propertyPath: m_Constraints
+      value: 84
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41bb5da590fcb874aa69a8a2632f114d, type: 2}
   m_RootGameObject: {fileID: 647873515}
@@ -1104,7 +1069,6 @@ GameObject:
   - 23: {fileID: 1004754139}
   - 111: {fileID: 1004754142}
   - 65: {fileID: 1004754140}
-  - 54: {fileID: 1004754143}
   m_Layer: 0
   m_Name: ReflectorEmit
   m_TagString: reflectorEmission
@@ -1182,22 +1146,6 @@ Animation:
   m_UserAABB:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
---- !u!54 &1004754143
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5400000, guid: 41bb5da590fcb874aa69a8a2632f114d,
-    type: 2}
-  m_PrefabInternal: {fileID: 954395811}
-  m_GameObject: {fileID: 1004754137}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1107027897
 GameObject:
   m_ObjectHideFlags: 0
@@ -1315,6 +1263,10 @@ Prefab:
     - target: {fileID: 400000, guid: 41bb5da590fcb874aa69a8a2632f114d, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5400002, guid: 41bb5da590fcb874aa69a8a2632f114d, type: 2}
+      propertyPath: m_Constraints
+      value: 84
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41bb5da590fcb874aa69a8a2632f114d, type: 2}
@@ -1439,6 +1391,10 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5400002, guid: 41bb5da590fcb874aa69a8a2632f114d, type: 2}
+      propertyPath: m_Constraints
+      value: 84
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41bb5da590fcb874aa69a8a2632f114d, type: 2}
   m_RootGameObject: {fileID: 2092106584}
@@ -1478,7 +1434,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!114 &1576680505
 MonoBehaviour:
@@ -1582,7 +1538,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!114 &1683215512
 MonoBehaviour:
@@ -1893,7 +1849,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!114 &1778507841
 MonoBehaviour:
@@ -1962,7 +1918,6 @@ GameObject:
   - 23: {fileID: 1922960365}
   - 111: {fileID: 1922960361}
   - 65: {fileID: 1922960364}
-  - 54: {fileID: 1922960363}
   m_Layer: 0
   m_Name: ReflectorEmit
   m_TagString: reflectorEmission
@@ -2000,22 +1955,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1576680509}
---- !u!54 &1922960363
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5400000, guid: 41bb5da590fcb874aa69a8a2632f114d,
-    type: 2}
-  m_PrefabInternal: {fileID: 363656434}
-  m_GameObject: {fileID: 1922960360}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &1922960364
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2068,7 +2007,6 @@ GameObject:
   - 23: {fileID: 1966372847}
   - 111: {fileID: 1966372844}
   - 65: {fileID: 1966372846}
-  - 54: {fileID: 1966372845}
   m_Layer: 0
   m_Name: ReflectorEmit
   m_TagString: reflectorEmission
@@ -2106,22 +2044,6 @@ Animation:
   m_UserAABB:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
---- !u!54 &1966372845
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5400000, guid: 41bb5da590fcb874aa69a8a2632f114d,
-    type: 2}
-  m_PrefabInternal: {fileID: 364334999}
-  m_GameObject: {fileID: 1966372842}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &1966372846
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2288,7 +2210,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!114 &2092106587
 MonoBehaviour:
