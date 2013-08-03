@@ -1218,7 +1218,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 129404790}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -1231,9 +1231,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1634051648}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &129404794
 Renderer:
   m_ObjectHideFlags: 0
@@ -1319,7 +1316,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 143205460}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -1332,9 +1329,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 63096764}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &143205463
 Renderer:
   m_ObjectHideFlags: 0
@@ -1529,7 +1523,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 177076836}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -1542,9 +1536,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 322256011}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &177076840
 Renderer:
   m_ObjectHideFlags: 0
@@ -1942,7 +1933,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 224793356}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -1955,9 +1946,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 799832728}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &224793360
 Renderer:
   m_ObjectHideFlags: 0
@@ -2411,7 +2399,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 282163554}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -2424,9 +2412,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 632719767}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &282163558
 Renderer:
   m_ObjectHideFlags: 0
@@ -2608,7 +2593,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 298316408}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -2621,9 +2606,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1478990770}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &298316412
 Renderer:
   m_ObjectHideFlags: 0
@@ -2938,7 +2920,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 335335868}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -2951,9 +2933,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 235157377}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &335335872
 Renderer:
   m_ObjectHideFlags: 0
@@ -3052,7 +3031,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 344190282}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -3065,9 +3044,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1585789343}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &344190286
 Renderer:
   m_ObjectHideFlags: 0
@@ -3381,7 +3357,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 377957092}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -3394,9 +3370,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1733844173}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &377957096
 Renderer:
   m_ObjectHideFlags: 0
@@ -3800,7 +3773,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 411981322}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -3813,9 +3786,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 752904665}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &411981326
 Renderer:
   m_ObjectHideFlags: 0
@@ -4441,7 +4411,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 510852159}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -4454,9 +4424,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 110544048}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &510852163
 Renderer:
   m_ObjectHideFlags: 0
@@ -5028,7 +4995,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 610469223}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -5041,9 +5008,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 451898016}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &610469226
 Renderer:
   m_ObjectHideFlags: 0
@@ -5364,7 +5328,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 641921225}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -5377,9 +5341,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 2058859346}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &641921228
 Renderer:
   m_ObjectHideFlags: 0
@@ -5515,7 +5476,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 647873515}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -5528,9 +5489,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1004754142}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!54 &647873521
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5815,7 +5773,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 749113097}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -5828,9 +5786,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1569548566}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &749113101
 Renderer:
   m_ObjectHideFlags: 0
@@ -5929,7 +5884,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 749189258}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -5942,9 +5897,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 830024952}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &749189262
 Renderer:
   m_ObjectHideFlags: 0
@@ -6259,7 +6211,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 755768279}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -6272,9 +6224,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 378346501}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &755768283
 Renderer:
   m_ObjectHideFlags: 0
@@ -7071,7 +7020,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 831680612}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -7084,9 +7033,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 593967383}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &831680616
 Renderer:
   m_ObjectHideFlags: 0
@@ -7216,7 +7162,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 862717049}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -7229,9 +7175,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 2032605237}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &862717052
 Renderer:
   m_ObjectHideFlags: 0
@@ -7432,7 +7375,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 864563397}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -7445,9 +7388,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1154969250}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &864563401
 Renderer:
   m_ObjectHideFlags: 0
@@ -7801,7 +7741,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 916665514}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -7814,9 +7754,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 488021073}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &916665518
 Renderer:
   m_ObjectHideFlags: 0
@@ -7985,7 +7922,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 936094002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -7998,9 +7935,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1634166419}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &936094005
 Renderer:
   m_ObjectHideFlags: 0
@@ -8099,7 +8033,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 936533860}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -8112,9 +8046,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1193228938}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &936533863
 Renderer:
   m_ObjectHideFlags: 0
@@ -8519,7 +8450,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 957916985}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -8532,9 +8463,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 775397269}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &957916989
 Renderer:
   m_ObjectHideFlags: 0
@@ -8842,7 +8770,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1039375988}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -8855,9 +8783,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1079313187}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1039375991
 Renderer:
   m_ObjectHideFlags: 0
@@ -9045,7 +8970,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1054223417}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -9058,9 +8983,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 277796008}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1054223420
 Renderer:
   m_ObjectHideFlags: 0
@@ -9941,7 +9863,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1147150173}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -9954,9 +9876,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1704373867}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1147150177
 Renderer:
   m_ObjectHideFlags: 0
@@ -10188,7 +10107,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1161093543}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -10201,9 +10120,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 37244136}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1161093547
 Renderer:
   m_ObjectHideFlags: 0
@@ -10720,7 +10636,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1209640652}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -10733,9 +10649,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 970300034}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1209640655
 Renderer:
   m_ObjectHideFlags: 0
@@ -10847,7 +10760,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1219515248}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -10860,9 +10773,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1945715175}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1219515252
 Renderer:
   m_ObjectHideFlags: 0
@@ -11298,7 +11208,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1259790749}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -11311,9 +11221,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 183045120}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1259790753
 Renderer:
   m_ObjectHideFlags: 0
@@ -11705,7 +11612,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1298472047}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -11718,9 +11625,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 2137442827}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1298472051
 Renderer:
   m_ObjectHideFlags: 0
@@ -11819,7 +11723,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1325270530}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -11832,9 +11736,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1576780085}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1325270534
 Renderer:
   m_ObjectHideFlags: 0
@@ -12110,7 +12011,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1385550946}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -12123,9 +12024,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1865845378}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1385550950
 Renderer:
   m_ObjectHideFlags: 0
@@ -12307,7 +12205,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1397528598}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -12320,9 +12218,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 483986505}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1397528602
 Renderer:
   m_ObjectHideFlags: 0
@@ -12676,7 +12571,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1420089120}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -12689,9 +12584,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 420220534}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1420089124
 Renderer:
   m_ObjectHideFlags: 0
@@ -13037,7 +12929,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1443820610}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -13050,9 +12942,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1066257399}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1443820613
 Renderer:
   m_ObjectHideFlags: 0
@@ -13336,7 +13225,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1500712098}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -13349,9 +13238,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1399757070}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1500712102
 Renderer:
   m_ObjectHideFlags: 0
@@ -13736,7 +13622,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1576680503}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -13749,9 +13635,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1922960361}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1576680506
 Renderer:
   m_ObjectHideFlags: 0
@@ -14168,7 +14051,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1622307725}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -14181,9 +14064,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1927585479}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1622307729
 Renderer:
   m_ObjectHideFlags: 0
@@ -14613,7 +14493,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1683215510}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -14626,9 +14506,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 874499891}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1683215513
 Renderer:
   m_ObjectHideFlags: 0
@@ -14948,6 +14825,7 @@ GameObject:
   - 33: {fileID: 1727051895}
   - 65: {fileID: 1727051894}
   - 23: {fileID: 1727051893}
+  - 114: {fileID: 1727051892}
   m_Layer: 0
   m_Name: ReflectorInstigator
   m_TagString: Untagged
@@ -14955,6 +14833,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1727051892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1727051891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6acd3fb8c93f90e48a300fbcfc44ce1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!23 &1727051893
 Renderer:
   m_ObjectHideFlags: 0
@@ -15278,7 +15167,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1750437468}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -15291,9 +15180,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1877922089}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1750437472
 Renderer:
   m_ObjectHideFlags: 0
@@ -15392,7 +15278,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1754438993}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -15405,9 +15291,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 864241753}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1754438997
 Renderer:
   m_ObjectHideFlags: 0
@@ -15493,7 +15376,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1760526257}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -15506,9 +15389,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 39644376}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1760526260
 Renderer:
   m_ObjectHideFlags: 0
@@ -15620,7 +15500,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1765378776}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -15633,9 +15513,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 53019730}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1765378780
 Renderer:
   m_ObjectHideFlags: 0
@@ -15817,7 +15694,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1773544159}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -15830,9 +15707,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 553521680}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1773544163
 Renderer:
   m_ObjectHideFlags: 0
@@ -15931,7 +15805,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1778507838}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -15944,9 +15818,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1966372844}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1778507842
 Renderer:
   m_ObjectHideFlags: 0
@@ -16032,7 +15903,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1797177807}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -16045,9 +15916,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 410979042}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1797177810
 Renderer:
   m_ObjectHideFlags: 0
@@ -16724,7 +16592,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1885500202}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -16737,9 +16605,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1328864246}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1885500206
 Renderer:
   m_ObjectHideFlags: 0
@@ -17131,7 +16996,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1907033774}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -17144,9 +17009,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1427487692}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1907033778
 Renderer:
   m_ObjectHideFlags: 0
@@ -17417,7 +17279,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1923149868}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -17430,9 +17292,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 233029723}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &1923149872
 Renderer:
   m_ObjectHideFlags: 0
@@ -18039,7 +17898,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2026369493}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -18052,9 +17911,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 2091736258}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &2026369496
 Renderer:
   m_ObjectHideFlags: 0
@@ -18255,7 +18111,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2040623208}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -18268,9 +18124,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 797753789}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &2040623212
 Renderer:
   m_ObjectHideFlags: 0
@@ -18596,7 +18449,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2075818307}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -18609,9 +18462,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 632887209}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &2075818311
 Renderer:
   m_ObjectHideFlags: 0
@@ -18710,7 +18560,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2082648656}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -18723,9 +18573,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1042953343}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &2082648660
 Renderer:
   m_ObjectHideFlags: 0
@@ -18824,7 +18671,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2091039994}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -18837,9 +18684,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 1838051594}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &2091039998
 Renderer:
   m_ObjectHideFlags: 0
@@ -19027,7 +18871,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2092106584}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
+  m_Script: {fileID: 11500000, guid: a043255a5f44a43eba0b841291cc3e94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   emitAudio:
@@ -19040,9 +18884,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 29010119}
-  hasReflected: 0
-  audioSourceRef: {fileID: 0}
-  audioVolumeMax: .25
 --- !u!23 &2092106588
 Renderer:
   m_ObjectHideFlags: 0
