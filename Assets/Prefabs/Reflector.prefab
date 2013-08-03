@@ -249,7 +249,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5130c98271623824ba3961b93760fc3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  emitAudio: {fileID: 0}
+  emitAudio:
+  - {fileID: 8300000, guid: 94b7a3d2ae7ce414d88c378646e6d170, type: 3}
+  - {fileID: 8300000, guid: 2c052a35d23960f4d95821618db92263, type: 3}
+  - {fileID: 8300000, guid: 11ef64c4aee499242b5302662e8a562a, type: 3}
+  - {fileID: 8300000, guid: c3d142927d54039459d79e9556aca6d5, type: 3}
+  - {fileID: 8300000, guid: 0fd38a7a53a9a074086ccb96616af6c8, type: 3}
+  - {fileID: 8300000, guid: ae3f642dedcebc3479ac37f8571a84e5, type: 3}
+  - {fileID: 8300000, guid: 18566b0ffc4c19f419b72dcc8ffd6583, type: 3}
   reflectLength: .5
   emitAnimationRef: {fileID: 11100000}
 --- !u!114 &11400002

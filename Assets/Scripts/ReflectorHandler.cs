@@ -3,13 +3,14 @@ using System.Collections;
 
 public class ReflectorHandler : MonoBehaviour {
 	
-	public AudioClip emitAudio;	
+	public AudioClip[] emitAudio;	
 	public float reflectLength = .5F;
 	public Animation emitAnimationRef;
 
 	
 	private bool hasReflected = false;
 	private AudioSource audioSourceRef;
+	private float audioVolumeMax = 0.25F;
 	
 	// Use this for initialization
 	void Start () 
@@ -35,10 +36,11 @@ public class ReflectorHandler : MonoBehaviour {
 	
 	void EmitReflection()
 	{
-		print ("HI!");
 		hasReflected=true;
 		emitAnimationRef.Play();
-		audioSourceRef.PlayOneShot(emitAudio, 1);
+		
+		int randomSound = Random.Range(0, emitAudio.Length);
+		audioSourceRef.PlayOneShot(emitAudio[randomSound], Random.Range(0, audioVolumeMax) );
 	}
 	
 }
