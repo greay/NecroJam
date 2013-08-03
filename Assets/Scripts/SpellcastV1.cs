@@ -4,20 +4,19 @@ using System.Collections;
 public class SpellcastV1 : MonoBehaviour {
 	
 	public SpellElement visualIndicator;
-	public Transform startPoint;
-	public Transform endPoint;
-	
-	public float positionPercentage = 0.5f;
+	public Transform startTransform;
+	public Transform endTransform;
 
 	// Use this for initialization
 	void Start () {
-		startPoint.renderer.enabled = false;
-		endPoint.renderer.enabled = false;
+		startTransform.renderer.enabled = false;
+		endTransform.renderer.enabled = false;
 		visualIndicator.SetManager (this);
+		visualIndicator.SetStartEndPoints(startTransform.position, endTransform.position);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		visualIndicator.transform.position = Vector3.Lerp (startPoint.position, endPoint.position, positionPercentage);
+		visualIndicator.transform.position = Vector3.Lerp (startTransform.position, endTransform.position, visualIndicator.positionPercentage);
 	}
 }
