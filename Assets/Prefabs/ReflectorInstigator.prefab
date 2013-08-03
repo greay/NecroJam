@@ -104,7 +104,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: a4b2bcc2e93ce3a4c90833d0301c3b10, type: 2}
+  - {fileID: 2100000, guid: bfc3d0508d15b494185633344282aa4f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -214,9 +214,10 @@ Animation:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  m_Animation: {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 029b98f399bad234ca000e4e24b44c11, type: 2}
+  - {fileID: 7400000, guid: 113bbec9c396446dabeee68568ef2393, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
