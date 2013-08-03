@@ -44,6 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ReflectorHandler.cs" />
      <Compile Include="Assets\Scripts\SpellElement.cs" />
      <Compile Include="Assets\Scripts\SpellcastV1.cs" />
  <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
