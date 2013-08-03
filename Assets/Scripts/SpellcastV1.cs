@@ -9,6 +9,7 @@ public class SpellcastV1 : MonoBehaviour {
 	
 	public SpellElement elementPrefab;
 	public int elementCount;
+	public AudioClip[] elementClips;
 	public SpellElement[] elements;
 	public Transform[] startTransforms;
 	public Transform[] endTransforms;
@@ -55,6 +56,8 @@ public class SpellcastV1 : MonoBehaviour {
 			elements[i] = (SpellElement) Instantiate (elementPrefab);
 			elements[i].name = "Element " + i;
 			elements[i].transform.parent = container;
+			elements[i].audio.clip = elementClips[i];
+			elements[i].audio.Play();
 						
 			elements[i].SetManager (this);
 //			elements[i].SetStartEndPoints(startTransforms[i].position, endTransforms[i].position);

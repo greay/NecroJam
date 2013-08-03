@@ -19,6 +19,9 @@ public class SpellElement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		
+		audio.pitch = Mathf.Lerp (0.1f, 3f, positionPercentage);
+		
 		if (moving) {
 			if (Input.GetMouseButton(0) == false) {
 				moving = false;
