@@ -18,20 +18,24 @@ public class SpellcastV1 : MonoBehaviour {
 	public float outerRadius = 4f;
 	
 	bool showSpellInterface = false;
+	
+	public MouseLook[] mouseLookControls;
 
 	// Use this for initialization
-	public void CreateSpellInterface () {
+	public void CreateSpellInterface (int parameterCount) {
 		if (showSpellInterface == true) {
 			return;
 		}
 		
 		showSpellInterface = true;
-		
-//		startTransform.renderer.enabled = false;
-//		endTransform.renderer.enabled = false;
-//		visualIndicator.SetManager (this);
-//		visualIndicator.SetStartEndPoints(startTransform.position, endTransform.position);
-		
+
+		if (mouseLookControls.Length > 0) {
+			for (int i = 0; i < mouseLookControls.Length; i++) {
+				mouseLookControls[i].enabled = false;
+			}
+		}
+				
+		elementCount = parameterCount;
 		float radianBetweenElements = (Mathf.PI*2)/elementCount;
 		elements = new SpellElement[elementCount];
 		startTransforms = new Transform[elementCount];
@@ -41,9 +45,10 @@ public class SpellcastV1 : MonoBehaviour {
 		for (int i = 0; i < elementCount; i++) {
 			Transform container = new GameObject ("Spell Element " + i).transform;
 			container.parent = transform;
-			container.localPosition = Vector3.zero;
+			container.localPosition = Vector3.up*0.9f;
+			container.localRotation = Quaternion.identity;
 			
-			Vector3 elementPosition = transform.position;
+			Vector3 elementPosition = Vector3.forward*2;
 			// Start position / inner radius
 			elementPosition.x = Mathf.Cos (radianBetweenElements*i) * innerRadius;
 			elementPosition.y = Mathf.Sin (radianBetweenElements*i) * innerRadius;
@@ -79,6 +84,12 @@ public class SpellcastV1 : MonoBehaviour {
 		}
 		
 		showSpellInterface = false;
+
+		if (mouseLookControls.Length > 0) {
+			for (int i = 0; i < mouseLookControls.Length; i++) {
+				mouseLookControls[i].enabled = true;
+			}
+		}
 		
 		for (int i = 0; i < elementCount; i++) {
 			Destroy (elements[i].transform.parent.gameObject);
@@ -92,23 +103,19 @@ public class SpellcastV1 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-//		visualIndicator.transform.position = Vector3.Lerp (startTransform.position, endTransform.position, visualIndicator.positionPercentage);
+		
+		if (Input.GetKeyDown (KeyCode.Space)) {
+			CreateSpellInterface(elementCount);
+		}
+		if (Input.GetKeyUp (KeyCode.Space)) {
+			DestroySpellInterface();
+		}
+		
 		for (int i = 0; i < elements.Length; i++) {
 			elements[i].transform.localPosition = Vector3.Lerp (startTransforms[i].localPosition, endTransforms[i].localPosition, elements[i].positionPercentage);
 		}
 	}
-	
-	void OnGUI () {
-		if (GUILayout.Button ("Show Spell Interface")) {
-			CreateSpellInterface();
-		}
 		
-		if (GUILayout.Button ("Hide Spell Interface")) {
-			DestroySpellInterface();
-		}
-		
-	}
-	
 	void OnDrawGizmos () {
 		Gizmos.DrawWireSphere (transform.position, innerRadius);
 		Gizmos.DrawWireSphere (transform.position, outerRadius);
